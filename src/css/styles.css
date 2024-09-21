@@ -1,1 +1,24 @@
 @import "./base/reset.css";
+@import "./base/common.css";
+
+.timer {
+    display: flex;
+    gap: 10px;
+    font-family: Arial, sans-serif;
+    justify-content: center;
+    align-items: center;
+}
+
+.field {
+    text-align: center;
+}
+
+.value {
+    font-size: 90px;
+    display: block;
+}
+
+.label {
+    font-size: 15px;
+    color: #555;
+}
